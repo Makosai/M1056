@@ -1,0 +1,25 @@
+{
+  "name": "m1056",
+  "version": "1.0.0",
+  "description": "A 2D react canvas project.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuaintShanty/M1056.git"
+  },
+  "keywords": [
+    "react",
+    "canvas",
+    "2d",
+    "html5"
+  ],
+  "author": "Kristopher Ali",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/QuaintShanty/M1056/issues"
+  },
+  "homepage": "https://github.com/QuaintShanty/M1056#readme"
+}

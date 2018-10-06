@@ -12,6 +12,7 @@
     },
     "plugins": ["react", "babel", "import"],
     "rules": {
+        "comma-dangle": 0,
         "indent": ["error", 2],
         "linebreak-style": ["error", "unix"],
         "quotes": ["error", "single"],

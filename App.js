@@ -1,18 +1,12 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import Controls from './components/Core/Controls';
 
-export default class App extends React.Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!!</Text>
-        <Controls></Controls>
-      </View>
-    );
-  }
-}
+// Components
+import AppHandler from './components/Global/AppHandler';
+import Screen from './components/Core/Screen/Screen';
+import Controls from './components/Core/Controls/Controls';
 
+// Styles
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -21,3 +15,16 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
+export default class App extends Component {
+  render() {
+    return (
+      <AppHandler>
+        <View style={styles.container}>
+          <Screen />
+          <Controls />
+        </View>
+      </AppHandler>
+    );
+  }
+}

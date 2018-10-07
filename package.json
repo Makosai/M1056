@@ -28,7 +28,9 @@
   },
   "homepage": "https://github.com/QuaintShanty/M1056#readme",
   "dependencies": {
+    "@expo/vector-icons": "^8.0.0",
     "expo": "^30.0.1",
+    "immutability-helper": "^2.8.1",
     "prop-types": "^15.6.2",
     "react": "16.3.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-30.0.0.tar.gz"
